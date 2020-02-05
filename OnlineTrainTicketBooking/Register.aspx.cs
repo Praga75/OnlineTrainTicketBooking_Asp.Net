@@ -24,7 +24,7 @@ namespace OnlineTrainTicketBooking
             string mailId = txtMailId.Text;
             DateTime dateOfBirth = DateTime.Parse(txtDob.Text);
             //string gender = txtgender;
-            //Long mobileNumber = Long.parse(txtMobilenumber.Text);
+            Int64 mobileNumber = Int64.Parse(txtMobilenumber.Text);
             //string nationality = nationality;
         }
     }
